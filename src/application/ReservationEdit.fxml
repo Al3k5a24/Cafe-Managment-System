@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ReservationEditController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="dashboard_info" stylesheets="@CafeShop.css">
+         <children>
+            <AnchorPane layoutX="14.0" layoutY="25.0" prefHeight="420.0" prefWidth="673.0">
+               <styleClass>
+                  <String fx:value="root" />
+                  <String fx:value="main-container" />
+                  <String fx:value="main-border" />
+               </styleClass>
+               <children>
+                  <Label layoutX="223.0" layoutY="14.0" styleClass="header-text" text="Edit Reservation" />
+                  <Label layoutX="38.0" layoutY="67.0" styleClass="input-label" text="Reservation ID:" />
+                  <TextField fx:id="edit_resID" disable="true" layoutX="38.0" layoutY="92.0" prefHeight="34.0" prefWidth="215.0" promptText="Reservation ID" />
+                  <ComboBox fx:id="edit_tableID" layoutX="27.0" layoutY="167.0" prefHeight="36.0" prefWidth="225.0" promptText="Choose Table" />
+                  <Label layoutX="42.0" layoutY="148.0" styleClass="input-label" text="Table ID:" />
+                  <Label layoutX="38.0" layoutY="221.0" styleClass="input-label" text="Customer:" />
+                  <TextField fx:id="edit_customer" layoutX="38.0" layoutY="246.0" prefHeight="34.0" prefWidth="215.0" promptText="Reservation" />
+                  <ComboBox fx:id="edit_time" layoutX="27.0" layoutY="324.0" prefHeight="36.0" prefWidth="225.0" promptText="Choose Time" />
+                  <Label layoutX="42.0" layoutY="305.0" styleClass="input-label" text="Time:" />
+                  <DatePicker fx:id="edit_date" layoutX="351.0" layoutY="92.0" promptText="Choose Date" />
+                  <Label layoutX="351.0" layoutY="67.0" styleClass="input-label" text="Date:" />
+                  <Label layoutX="351.0" layoutY="161.0" styleClass="input-label" text="Mobile Number:" />
+                  <TextField fx:id="edit_mobile" layoutX="351.0" layoutY="186.0" prefHeight="34.0" prefWidth="215.0" promptText="Mobile #" />
+                  <ComboBox fx:id="edit_status" layoutX="341.0" layoutY="265.0" prefHeight="36.0" prefWidth="235.0" promptText="Choose Status" />
+                  <Label layoutX="353.0" layoutY="246.0" styleClass="input-label" text="Status:" />
+                  <Button fx:id="updateBtn" layoutX="330.0" layoutY="330.0" mnemonicParsing="false" onAction="#updateBtn" prefHeight="47.0" prefWidth="140.0" styleClass="login-button" text="Update" />
+                  <Button fx:id="removeBtn" layoutX="506.0" layoutY="330.0" mnemonicParsing="false" onAction="#removeBtn" prefHeight="47.0" prefWidth="140.0" styleClass="login-button" text="Remove" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

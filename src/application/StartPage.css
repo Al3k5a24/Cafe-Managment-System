@@ -1,0 +1,227 @@
+
+
+.dashboard_info {
+    -fx-background-color: #1d1a18;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5, 0, 0, 0);
+    -fx-border-radius: 20px;
+    -fx-background-radius: 5px;
+    -fx-border-color: transparent;
+}
+
+/* ===== GLAVNA PODEŠAVANJA ===== */
+.root {
+    -fx-background-color: transparent;
+}
+
+/* Stil za glavni kontejner */
+.main-container {
+    -fx-background-color: #1d1a18;  /* Tamno smeđa pozadina */
+    -fx-border-color: rgba(214, 191, 144, 0.3);  /* Zlatno-braon ivica sa 30% opacity */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 12, 0, 0, 6);
+	-fx-border-radius: 20px;
+	-fx-background-radius: 5px;
+}
+
+.main-border{
+	-fx-background-radius: 20px
+}
+
+/* ===== NASLOV ===== */
+.label.header-text {
+    -fx-text-fill: #d6bf90;  /* Zlatno-braon tekst */
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+
+/* ===== LABELE ===== */
+.label.input-label {
+    -fx-text-fill: #d6bf90;
+    -fx-font-size: 16px;
+}
+
+.label.input-label-smaller {
+    -fx-text-fill: #d6bf90;
+    -fx-font-size: 11px;
+}
+
+/* ===== INPUT POLJA ===== */
+.text-field, .password-field {
+    -fx-background-color: #1d1a18;  /* Tamno smeđa pozadina */
+    -fx-text-fill: #d6bf90;  /* Zlatno-braon tekst */
+    -fx-border-color: #7e7369;  /* Srednje smeđa ivica */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #d6bf90;  /* Zlatno-braon ivica na fokusu */
+    -fx-text-fill: #ffffff;  /* Bela boja teksta na fokusu */
+}
+
+/* ===== DUGME ===== */
+.button.login-button {
+    -fx-background-color: linear-gradient(to bottom, #7e7369, #1d1a18);
+    -fx-text-fill: #d6bf90;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 25px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #7e7369;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+}
+
+.button.login-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #d6bf90, #7e7369);
+    -fx-text-fill: #1d1a18;
+}
+
+.button.login-button:pressed {
+    -fx-background-color: #7e7369;
+    -fx-text-fill: #d6bf90;
+}
+
+/* ===== LINKOVI ===== */
+.hyperlink {
+    -fx-text-fill: #d6bf90;
+    -fx-border-color: transparent;
+    -fx-underline: false;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #ffffff;
+    -fx-underline: true;
+}
+
+/* ===== SLOGAN ===== */
+.label.slogan {
+    -fx-text-fill: #d6bf90;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-padding: 20px;
+    -fx-text-alignment: center;
+}
+
+/* ===== CHECKBOX ===== */
+.check-box {
+    -fx-text-fill: #d6bf90;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.check-box .box {
+    -fx-background-color: #1d1a18;
+    -fx-border-color: #7e7369;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-border-width: 1px;
+}
+
+.check-box:hover .box,
+.check-box:focused .box {
+    -fx-border-color: #d6bf90;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #7e7369;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #d6bf90;
+}
+
+.check-box:focused .box {
+    -fx-effect: dropshadow(gaussian, rgba(214, 191, 144, 0.3), 5, 0, 0, 1);
+}
+
+.check-box:disabled {
+    -fx-opacity: 0.7;
+}
+
+/* ===== COMBOBOX ===== */
+.combo-box .list-cell {
+    -fx-background-color: black;  /* Crna pozadina opcija */
+    -fx-text-fill: #d6bf90;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #333;
+}
+
+.combo-box .list-view {
+    -fx-background-color: black;  /* Crna pozadina liste */
+}
+
+
+.transparent-icon-button {
+	-fx-background-color: transparent;
+	    -fx-border-color: #7e7369;
+	    -fx-border-width: 2px;
+	    -fx-border-radius: 5px;
+	    -fx-background-radius: 5px;
+	    -fx-padding: 5px 15px;
+	    -fx-font-size: 12px;
+	    -fx-cursor: hand;
+	    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 2);
+}
+
+.transparent-icon-button:hover {
+    -fx-background-color: rgba(30, 26, 24, 0.2);
+    -fx-border-color: #d6bf90;
+    -fx-text-fill: #d6bf90;
+}
+
+.transparent-icon-button:pressed {
+    -fx-fill: transparent;
+    -fx-font-size: 12px;
+}
+
+/* ===== COMBOBOX ===== */
+.combo-box {
+    -fx-background-color: #1d1a18;  /* Tamno smeđa pozadina */
+    -fx-background-radius: 5px;
+    -fx-text-fill: #d6bf90;  /* Zlatno-braon tekst */
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.combo-box:focused {
+    -fx-background-color: #7e7369;  /* Srednje smeđa pozadina na fokusu */
+    -fx-text-fill: #ffffff;  /* Bela boja teksta na fokusu */
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: #7e7369;  /* Srednje smeđa pozadina */
+    -fx-border-radius: 0 5px 5px 0;
+}
+
+.combo-box .arrow-button:hover {
+    -fx-background-color: #d6bf90;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #1d1a18;  /* Tamno smeđa strelica */
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #d6bf90;  /* Zlatno-braon tekst */
+    -fx-padding: 5px 10px;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: transparent;  /* Uklonjena pozadina na hover */
+}
+
+
+.combo-box .list-cell:selected {
+    -fx-background-color: #d6bf90;  /* Zlatno-braon pozadina kada je selektovano */
+    -fx-text-fill: #1d1a18;  /* Tamno smeđa boja teksta */
+}
+
