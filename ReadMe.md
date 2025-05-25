@@ -32,7 +32,7 @@ A comprehensive Java-based Cafe Management System that helps cafes and restauran
 ### Registration
 
 <p align="center">
-  <img src="tree/main/images/login.png" width="500"/>
+  <img src="main/images/login.png" width="500"/>
   <img src="tree/main/images/register.png" width="500"/>
   <img src="tree/main/images/fgpassq.png" width="500"/>
   <img src="tree/main/images/resetpass.png" width="500"/>
