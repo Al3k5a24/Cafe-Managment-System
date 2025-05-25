@@ -1,0 +1,290 @@
+.dashboard_info {
+    -fx-background-color: #1d1a18;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5, 0, 0, 0);
+    -fx-border-radius: 20px;
+    -fx-background-radius: 5px;
+    -fx-border-color: transparent;
+}
+
+/* ===== GLAVNA PODEŠAVANJA ===== */
+.root {
+    -fx-background-color: transparent;
+}
+
+/* Stil za glavni kontejner */
+.main-container {
+    -fx-background-color: #1d1a18;  /* Tamno smeđa pozadina */
+    -fx-border-color: rgba(214, 191, 144, 0.3);  /* Zlatno-braon ivica sa 30% opacity */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 12, 0, 0, 6);
+    -fx-border-radius: 20px;
+    -fx-background-radius: 5px;
+}
+
+.main-border{
+    -fx-background-radius: 20px;
+}
+
+/* ===== NASLOV ===== */
+.label.header-text {
+    -fx-text-fill:  #b5ada3;  /* Zlatno-braon tekst */
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+
+.label.input-label {
+    -fx-text-fill:  #b5ada3;
+    -fx-font-size: 16px;
+}
+
+.label.input-label-smaller {
+    -fx-text-fill:  #1d1a18;
+    -fx-font-size: 12px;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #1d1a18;
+    -fx-text-fill: #d6bf90;
+    -fx-border-color: #7e7369;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #d6bf90;
+    -fx-text-fill: #ffffff;
+}
+
+.button.login-button {
+    -fx-background-color: linear-gradient(to bottom, #7e7369, #1d1a18);
+    -fx-text-fill:  #b5ada3;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 25px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #7e7369;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+}
+
+.button.login-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #d6bf90, #7e7369);
+    -fx-text-fill: #1d1a18;
+}
+
+.button.login-button:pressed {
+    -fx-background-color: #7e7369;
+    -fx-text-fill: #d6bf90;
+}
+
+.button.login-button-smaller {
+    -fx-background-color: linear-gradient(to bottom, #7e7369, #1d1a18);
+    -fx-text-fill:  #b5ada3;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;
+    -fx-border-color: #7e7369;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+}
+
+.button.login-button-smaller {
+    -fx-background-color: linear-gradient(to bottom, #d6bf90, #7e7369);
+    -fx-text-fill: #1d1a18;
+}
+
+.button.login-button-smaller:pressed {
+    -fx-background-color: #7e7369;
+    -fx-text-fill: #d6bf90;
+}
+
+.hyperlink {
+    -fx-text-fill: #d6bf90;
+    -fx-border-color: transparent;
+    -fx-underline: false;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #ffffff;
+    -fx-underline: true;
+}
+
+/* ===== OSTALI ELEMENTI ===== */
+
+.check-box {
+    -fx-text-fill: #d6bf90;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.check-box .box {
+    -fx-background-color: #1d1a18;
+    -fx-border-color: #7e7369;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-border-width: 1px;
+}
+
+.check-box:hover .box,
+.check-box:focused .box {
+    -fx-border-color: #d6bf90;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #7e7369;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #d6bf90;
+}
+
+.check-box:disabled {
+    -fx-opacity: 0.7;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: black;
+    -fx-text-fill: #d6bf90;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #333;
+}
+
+.combo-box {
+    -fx-background-color: #1d1a18;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #d6bf90;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.combo-box:focused {
+    -fx-background-color: #7e7369;
+    -fx-text-fill: #ffffff;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: #7e7369;
+    -fx-border-radius: 0 5px 5px 0;
+}
+
+.combo-box .arrow-button:hover {
+    -fx-background-color: #d6bf90;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #1d1a18;
+}
+
+/* ===== GRAFIKONI ===== */
+
+.chart {
+    -fx-background-color: transparent;
+}
+
+.chart-series-line {
+    -fx-stroke: #d6bf90;
+    -fx-stroke-width: 2px;
+}
+
+.chart-series-area-fill {
+    -fx-fill: linear-gradient(to bottom, rgba(214, 191, 144, 0.6), rgba(29, 26, 24, 0.2));
+}
+
+.chart-plot-background {
+    -fx-background-color: #1d1a18;
+}
+
+.chart-vertical-grid-lines,
+.chart-horizontal-grid-lines {
+    -fx-stroke:  #b5ada3;
+}
+
+/* ===== TABELA ===== */
+.table-view {
+    -fx-background-color: #1d1a18;
+    -fx-border-color: #7e7369;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #7e7369;
+    -fx-background-radius: 5px 5px 0 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-text-fill: #d6bf90;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px;
+    -fx-alignment: center-left;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #1d1a18;
+    -fx-border-color: #7e7369;
+    -fx-border-width: 0 0 1px 0;
+    -fx-padding: 5px;
+    -fx-text-fill: #d6bf90;
+    -fx-font-size: 14px;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #25211e;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #7e7369;
+    -fx-text-fill: #1d1a18;
+}
+
+.table-view .table-cell {
+    -fx-border-color: black;
+    -fx-padding: 8px;
+    -fx-text-fill: #d6bf90;
+}
+
+.table-view .table-cell:selected {
+    -fx-text-fill: #1d1a18;
+    -fx-font-weight: bold;
+}
+
+.table-view .filler {
+    -fx-background-color: #1d1a18;
+}
+
+.custom-scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar {
+    -fx-background-color: #1d1a18;
+}
+
+.scroll-pane .scroll-bar .thumb {
+    -fx-background-color: #7e7369;
+    -fx-background-radius: 5px;
+}
+
+.scroll-pane .scroll-bar .thumb:hover {
+    -fx-background-color: #d6bf90;
+}
+
+.scroll-pane {
+    -fx-background: #1d1a18;
+    -fx-background-color: #1d1a18;
+	-fx-border-color:  #b5ada3;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: #1d1a18;
+	-fx-border-color:  #b5ada3;
+}
