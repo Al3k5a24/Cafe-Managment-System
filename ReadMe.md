@@ -29,22 +29,24 @@ A comprehensive Java-based Cafe Management System that helps cafes and restauran
 
 ## Screenshots
 
-### Admin
+### Registration
+
 <p align="center">
-  <img src="images/Admin/admin_dashboard.png" width="500"/>
-  <img src="images/Admin/admin_menu.png" width="500"/>
-  <img src="images/Admin/admin_orders.png" width="500"/>
-  <img src="images/Admin/admin_tables.png" width="500"/>
+  <img src="tree/main/images/login.png" width="500"/>
+  <img src="tree/main/images/register.png" width="500"/>
+  <img src="tree/main/images/fgpassq.png" width="500"/>
+  <img src="tree/main/images/resetpass.png" width="500"/>
 </p>
 
-### Employee
+### Software
+
 <p align="center">
-  <img src="images/Employee/employee_dashboard.png" width="500"/>
-  <img src="images/Employee/employee_new_order.png" width="500"/>
-  <img src="images/Employee/employee_checkout.png" width="500"/>
+  <img src="tree/main/images/dashboard.png" width="500"/>
+  <img src="tree/main/images/inventory.png" width="500"/>
+  <img src="tree/main/images/tables.png" width="500"/>
 </p>
 
-<h2 align="center">📸 All screenshots are available at: <a href="https://github.com/Al3k5a24/Cafe-Management-System/tree/main/images">Images</a></h2>
+<h2 align="center">📸 All screenshots are available at: <a href="https://github.com/Al3k5a24/Cafe-Managment-System/tree/main/images">Images</a></h2>
 
 ---
 
