@@ -33,17 +33,17 @@ A comprehensive Java-based Cafe Management System that helps cafes and restauran
 
 <p align="center">
   <img src="images/login.png" width="500"/>
-  <img src="tree/main/images/register.png" width="500"/>
-  <img src="tree/main/images/fgpassq.png" width="500"/>
-  <img src="tree/main/images/resetpass.png" width="500"/>
+  <img src="images/register.png" width="500"/>
+  <img src="images/fgpassq.png" width="500"/>
+  <img src="images/resetpass.png" width="500"/>
 </p>
 
 ### Software
 
 <p align="center">
-  <img src="tree/main/images/dashboard.png" width="500"/>
-  <img src="tree/main/images/inventory.png" width="500"/>
-  <img src="tree/main/images/tables.png" width="500"/>
+  <img src="images/dashboard.png" width="500"/>
+  <img src="images/inventory.png" width="500"/>
+  <img src="images/tables.png" width="500"/>
 </p>
 
 <h2 align="center">📸 All screenshots are available at: <a href="https://github.com/Al3k5a24/Cafe-Managment-System/tree/main/images">Images</a></h2>
