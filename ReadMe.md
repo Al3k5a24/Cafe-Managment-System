@@ -23,7 +23,6 @@ A comprehensive Java-based Cafe Management System that helps cafes and restauran
 - 🔐 User Authentication & Role Management (Admin / Employee)
 - 📊 Dashboard with Active Orders
 - 💾 MySQL Database Integration
-- ⚙️ Clean MVC Architecture
 
 ---
 
